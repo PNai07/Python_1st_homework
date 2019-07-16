@@ -55,9 +55,9 @@ embedded_list = [[1, 2, 3],[5, 6, 7]]
 #     print(result_percent)
 
 
-list_embed_scores= [[10, 5, 2],[3, 4, 6]]
-for ind_list in list_embed_scores:
-     print(ind_list)
-
-for num in ind_list:
-    print (num*2)
+# list_embed_scores= [[10, 5, 2],[3, 4, 6]]
+# for ind_list in list_embed_scores:
+#      print(ind_list)
+#
+# for num in ind_list:
+#     print (num*2)
