@@ -26,10 +26,17 @@
 weather = input("What is the weather like?").lower().strip()
 
 if weather =='rainy' or weather == 'stormy' :
-    print('Take an umbrella and a jacket!!')
-
-elif weather == 'rainy':
-    print('Today is a rainy day, take an umbrella!')
-
+    print('You will need a jacket!!')
+elif 'rainy' in weather:  #allows to search for 'rainy' within a string e.g. dkgg rainy etc
+    print('You will need your umbrella!')
+elif weather == 'sunny':
+    print('Take your sunglasses and pop on some sunscreen!')
+elif weather =='foggy':
+    print('You may need an umbrella, because you never know!')
 else:
     print ('have a great day! :)')
+
+# #I want a jacket when it is rainy and stormy
+# I want a umbrella when it is rainy
+# I also want a umbrella if it is foggy, because you never know
+# keep stuff from sunny
