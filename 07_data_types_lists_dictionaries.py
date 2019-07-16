@@ -86,7 +86,7 @@ my_tuple = ('eggs', 'bread', 'oats', [11, 13])
 print(my_tuple)
 print(type(my_tuple))
 
-# We cannot change the tuple itself, but we can changhe the state of items inside
-# we cannot re-assign them
+# We cannot change the tuple itself, but we can change the state of items inside
+# we cannot re-assign them.
 breakpoint()
 
