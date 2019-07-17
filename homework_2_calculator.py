@@ -28,12 +28,11 @@ print ("Select your calculator operator -\n"
 # Takes in user input
 pick = input("Please select the operator from 1, 2, 3, 4: ")
 
-value1= input('Enter your first value: ')
-value2 = input('Enter your second value: ')
+value1= float(input('Enter your first value: '))
+value2 = float(input('Enter your second value: '))
 
 if pick =='1':
-    print(value1, "+", value2 , "=",
-          add(value1, value2))
+    print(value1, "+", value2 , "=", add(value1, value2))
 
 elif pick == '2':
     print(value1, "-", value2 , "=",
